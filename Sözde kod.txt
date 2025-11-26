@@ -1,0 +1,8 @@
+1.Kütüphaneleri gir
+2.Değişkenleri oluştur
+3.Hangi evcil hayvanı sahiplenmek istediğini sor
+4.Sahiplenmek istediği hayvanın istediği yaşını ve cinsiyetini sor
+5.Sahiplenmek isteyen kişinin ev adresini iste
+6.Ev adresine yakın barınaklarda istediği türden var mı diye bak
+7.Cevap ver
+8.Programı bitir

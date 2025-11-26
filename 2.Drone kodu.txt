@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int yuk;
+int hiz;
+int yukseklik;
+int main()
+{
+    cout<<"Drone'un tasıyacakı yuk(gram) ne kadar:   "<<endl;
+    cin >> yuk;
+    cout<<"Drone'un gidecegi hiz(m/s) ne kadar:  "<<endl;
+    cin>> hiz;
+    cout<<"Drone'un ucacagı yukseklik(m) ne kadar:  "<<endl;
+    cin>> yukseklik;
+    int pil = 100 - hiz / 10 * 5;
+    if (yuk > 500)
+    {
+        cout<<"Yuk cok fazla"<<endl;
+    }
+    else if (pil < 30)
+    {
+        cout<<"Pil ucus icin az"<<endl;
+    }
+    else if (hiz > 50)
+    {
+        cout<<"Hiz ucus icin cok"<<endl;
+    }
+    else if (yukseklik > 200)
+    {
+        cout<<"Yukseklik cok fazla"<<endl;
+    }
+    else if (yukseklik < 20)
+    {
+        cout<<"Yukseklik cok az"<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
+
+//1 hata aldım hız ne kadar olduğuyla alakalı gereksiz fazla kod yazdım

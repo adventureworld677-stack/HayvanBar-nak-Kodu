@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int yuk;
+int hiz;
+int yukseklik;
+int main()
+{
+    cout<<"Drone'un tasıyacakı yuk(gram) ne kadar:   "<<endl;
+    cin >> yuk;
+    cout<<"Drone'un gidecegi hiz(m/s) ne kadar:  "<<endl;
+    cin>> hiz;
+    cout<<"Drone'un ucacagı yukseklik(m) cinsinden girin:  "<<endl;
+    cin>> yukseklik;
+    if  (yuk > 500)
+    {
+        cout<<"Cok ağır yuk"<<endl;
+    }
+    else if (yukseklik > 200)
+    {
+        cout<<"Yukseklik cok fazla"<<endl;
+    }
+    else if (yukseklik < 20)
+    {
+        cout<<"Yukseklik cok az"<<endl;
+    }
+    return 0;
+}
